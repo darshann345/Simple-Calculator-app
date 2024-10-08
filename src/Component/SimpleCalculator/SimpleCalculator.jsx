@@ -5,7 +5,7 @@ import {useState} from "react";
 const SimpleCalculator = () => {
 
 
-    
+
     const [inputValue, setInputValue] = useState("");
     const [result, setResult] = useState("");
     const buttonLayout = [["7","8","9","+"],["4","5","6","-"],["1","2","3","*"],["C","0","=","/"]];
@@ -61,4 +61,4 @@ const SimpleCalculator = () => {
         </>
     );
 }
-export default Calculator;
+export default SimpleCalculator;
