@@ -1,5 +1,7 @@
 import './App.css';
-import './Component/SimpleCalculator/SimpleCalculator';
+import SimpleCalculator from './Component/SimpleCalculator/SimpleCalculator';
+
+
 
 function App() {
   return (
